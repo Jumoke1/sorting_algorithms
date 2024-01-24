@@ -17,8 +17,8 @@ void swap(int *val1, int *val2)
  * @array: array to be partitioned
  * @low: low index of the partition
  * @high: high index of the partion
- * @size: size of the array
- * Return: index
+ * @size: size of array
+ * Return: null
  */
 
 int lomuto_partition(int *array, int low, int high, int size)
@@ -47,12 +47,11 @@ int lomuto_partition(int *array, int low, int high, int size)
 	return (i);
 }
 /**
- * quicksort - Sorts an array using the Quick Sort algorithm
- * @array: array to be sorted
- * @low: low index of the partition
- * @high: high index of the partition
- * @size: size of the array
- * @Return: null
+ * quicksort - Sorts an array using Quick Sort
+ * @array: ==
+ * @low: ==
+ * @high: ==
+ * @size: ==
  */
 
 void quicksort(int *array, int low, int high, int size)
@@ -66,17 +65,13 @@ void quicksort(int *array, int low, int high, int size)
 
 	}
 }
-
 /**
  * quick_sort - a function to sort integers using quick sort
  * @array: array
  * @size: size of the array
- * @Return: null
  */
-
 void quick_sort(int *array, size_t size)
 {
-
 	if (array == NULL || size < 2)
 		return;
 
